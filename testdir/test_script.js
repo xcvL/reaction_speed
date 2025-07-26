@@ -35,7 +35,6 @@ testScreen.addEventListener("click", () => {
         reactionSpeed = stringReactSpeed + "ms";
         window.parent.postMessage("fromTest", parentOrigin);
         localStorage.setItem("reactionSpeed", reactionSpeed);
-        console.log(sumOfReactionSpeeds);
         localStorage.setItem("sumOfReactionSpeeds", sumOfReactionSpeeds);
     }
 });
